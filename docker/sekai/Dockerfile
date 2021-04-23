@@ -12,6 +12,7 @@ RUN apt-get update -y
 RUN apt-get install -y \
 	git \
 	tar \
+	nano \
 	curl
 
 RUN ./compile.sh
